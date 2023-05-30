@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+Body {
+    background-color: #1c87c9;
+}
+h2 {
+    color: white;
+}
+table {
+    padding: 20px;
+    background-color: lightblue;
+    width: 600px;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+}
+table img {
+    border: 3px solid blue;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: contain;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+caption {
+    text-align: center;
+    align-items: center;
+}
+
+table caption {
+    color: white;
+    caption-side: bottom;
+}
+
+p {
+  margin-left: -30px;
+}
